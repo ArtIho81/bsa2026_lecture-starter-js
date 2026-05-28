@@ -8,6 +8,30 @@
   align-items: flex-end;
 }
 
+.fighter-preview___right img {
+  transform: scaleX(-1);
+  height: 300px;
+}
+
 .fighter-preview___left {
   align-items: flex-start;
+}
+
+.fighter-preview___left img {
+  height: 300px;
+}
+
+.fighter-preview__name {
+  color: whitesmoke;
+  margin: 0 auto;
+}
+
+.fighter-preview___info {
+  font-size: 22px;
+  color: whitesmoke;
+}
+
+.fighter-preview__prop {
+  margin: 0;
+  padding: 0;
 }
